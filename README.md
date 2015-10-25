@@ -35,6 +35,8 @@ Open Github Desktop. (It's a program on your computer).
 
 Click on the plus symbol + at the top left and choose CLONE. Then you should see webring in the list. Select it to clone the repository.
 
+(If you don't see 'webring' in the list, you might need to restart Github Desktop and make sure you're signed in.)
+
 This copies your repository to your computer, so you can edit it using your favourite text editor (i.e. Atom).
 
 Webring should appear in the list on the left of Github Desktop. Right click on it and choose 'Open in Atom' to open in Atom. You will need Atom installed.
@@ -42,6 +44,12 @@ Webring should appear in the list on the left of Github Desktop. Right click on 
 ### Step 3 - Adding your site.
 
 Make a new html file to be your page. Start with something simple, name it something like _yourname.html_
+
+Add this code somewhere in the head:
+
+```
+<link rel="stylesheet" href="shared.css" type="text/css" />
+```
 
 Add this code somewhere in the body:
 
@@ -53,18 +61,25 @@ Add this code somewhere in the body:
   </div>
 ```
 
-Commit your change, sync, and then do a pull request to ask us to merge your change into the main version.
+To get your change published:
+1. commit it (by adding a commit message and clicking 'commit' in Github Desktop - this says you've finished a change
+2. sync (top right in Github Desktop) - this makes your committed changes public at github.com/yourname/webring so everyone can see them
+3. pull request - this asks us to copy the change (that we can see now) from github.com/yourname/webring to github.com/codeclubakl/webring
 
 Once it's merged, your page will appear at http://codeclubakl.github.io/webring/yourname.html (you will need to get someone to merge, and then it may take up to 5 minutes to go live)
 
-### Step 4 - fixing the links
+### Step 4 - get everyone else's changes and fix the links
 
-In Github Desktop, click 'sync' to get everyone else's updates.
+In Github Desktop, click 'sync' to make sure you are up to date, then click 'Update from codeclubakl/webring to say you want to get the new changes copied into your version.
+
+This will add everyone else's pages to your copy of the webring. They should appear in Atom.
 
 Once there are some other pages, fix the 'next' and 'previous' links on your site to link to the next page and the previous page (alphabetically) instead of just linking to my site.
 
-Commit your changes.
+Commit your changes and sync and do another pull request to get the right links added.
 
 One everyone has the right links, you should be able to go around the whole ring by clicking 'next' on each site.
+
+Remember you can check the 'real' version of the webring at http://codeclubakl.github.io/webring/yourname.html (replace yourname with your name)
 
 ### Step 5 - make your page cooler idk
