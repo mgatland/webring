@@ -16,10 +16,8 @@ We're going to make a web ring where each of us have a page.
 
 ### Step 0 - look at the web ring so far
 
-So far it's a lonely webring with only one page.
-
 look:
-http://codeclubakl.github.io/webring/matthew.html
+http://codeclubakl.github.io/webring/thor.html
 
 ### Step 1 - FORK this repository.
 
@@ -80,6 +78,8 @@ Commit your changes and sync and do another pull request to get the right links 
 
 One everyone has the right links, you should be able to go around the whole ring by clicking 'next' on each site.
 
-Remember you can check the 'real' version of the webring at http://codeclubakl.github.io/webring/yourname.html (replace yourname with your name)
+Remember you can check the 'real' version of the webring at http://codeclubakl.github.io/webring/thor.html (or replace thor with any other name in the ring.)
+
+You might need to force your browser to download a new version of a page, if you just changed it, by pressing command-F5 (mac) or ctrl-F5 (windows).
 
 ### Step 5 - make your page cooler idk
