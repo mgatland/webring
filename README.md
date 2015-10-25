@@ -35,6 +35,8 @@ Open Github Desktop. (It's a program on your computer).
 
 Click on the plus symbol + at the top left and choose CLONE. Then you should see webring in the list. Select it to clone the repository.
 
+(If you don't see 'webring' in the list, you might need to restart Github Desktop and make sure you're signed in.)
+
 This copies your repository to your computer, so you can edit it using your favourite text editor (i.e. Atom).
 
 Webring should appear in the list on the left of Github Desktop. Right click on it and choose 'Open in Atom' to open in Atom. You will need Atom installed.
