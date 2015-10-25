@@ -45,6 +45,12 @@ Webring should appear in the list on the left of Github Desktop. Right click on 
 
 Make a new html file to be your page. Start with something simple, name it something like _yourname.html_
 
+Add this code somewhere in the head:
+
+```
+<link rel="stylesheet" href="shared.css" type="text/css" />
+```
+
 Add this code somewhere in the body:
 
 ```
