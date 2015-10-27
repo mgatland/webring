@@ -16,10 +16,8 @@ We're going to make a web ring where each of us have a page.
 
 ### Step 0 - look at the web ring so far
 
-So far it's a lonely webring with only one page.
-
 look:
-http://codeclubakl.github.io/webring/matthew.html
+http://codeclubakl.github.io/webring/thor.html
 
 ### Step 1 - FORK this repository.
 
@@ -61,18 +59,27 @@ Add this code somewhere in the body:
   </div>
 ```
 
-Commit your change, sync, and then do a pull request to ask us to merge your change into the main version.
+To get your change published:
+1. commit it (by adding a commit message and clicking 'commit' in Github Desktop - this says you've finished a change
+2. sync (top right in Github Desktop) - this makes your committed changes public at github.com/yourname/webring so everyone can see them
+3. pull request - this asks us to copy the change (that we can see now) from github.com/yourname/webring to github.com/codeclubakl/webring
 
 Once it's merged, your page will appear at http://codeclubakl.github.io/webring/yourname.html (you will need to get someone to merge, and then it may take up to 5 minutes to go live)
 
-### Step 4 - fixing the links
+### Step 4 - get everyone else's changes and fix the links
 
-In Github Desktop, click 'sync' to get everyone else's updates.
+In Github Desktop, click 'sync' to make sure you are up to date, then click 'Update from codeclubakl/webring to say you want to get the new changes copied into your version.
+
+This will add everyone else's pages to your copy of the webring. They should appear in Atom.
 
 Once there are some other pages, fix the 'next' and 'previous' links on your site to link to the next page and the previous page (alphabetically) instead of just linking to my site.
 
-Commit your changes.
+Commit your changes and sync and do another pull request to get the right links added.
 
 One everyone has the right links, you should be able to go around the whole ring by clicking 'next' on each site.
+
+Remember you can check the 'real' version of the webring at http://codeclubakl.github.io/webring/thor.html (or replace thor with any other name in the ring.)
+
+You might need to force your browser to download a new version of a page, if you just changed it, by pressing command-F5 (mac) or ctrl-F5 (windows).
 
 ### Step 5 - make your page cooler idk
